@@ -34,9 +34,13 @@ function Index() {
       <WorkersModal open={open} handleClose={() => setOpen(false)} />
       <div className="flex flex-col gap-3">
         <div className="flex justify-end mt-4 mr-5 ">
+          <div className=" flex flex-col gap-3">
+        <div className="flex justify-end mr-4 mt-5">
           <Button variant="contained" onClick={() => setOpen(true)}>
             Add a worker
           </Button>
+        </div>
+      </div>
         </div>
         <WorkersTable data={data} />
       </div>

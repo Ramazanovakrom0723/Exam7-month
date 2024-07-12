@@ -5,7 +5,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import App from "../App";
-import { SignIn, SignUp, Main, Category, Products, Workers } from "@pages";
+import { SignIn, Main, Category, Products, Workers } from "@pages";
 const Index = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -16,7 +16,6 @@ const Index = () => {
           <Route path="/workers" element={<Workers />} />
         </Route>
         <Route path="/sign-in" element={<SignIn />} />
-        <Route path="/sign-up" element={<SignUp />} />
       </Route>
     )
   );

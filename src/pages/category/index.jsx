@@ -30,7 +30,7 @@ const Index = () => {
       </div>
       <CategoryModal open={open} handleClose={() => setOpen(false)} />
       <div className=" flex flex-col gap-3">
-        <div className="flex justify-end mr-4 mt-5">
+        <div className="flex justify-end mr-5 mt-7">
           <Button variant="contained" onClick={() => setOpen(true)}>
             To add
           </Button>

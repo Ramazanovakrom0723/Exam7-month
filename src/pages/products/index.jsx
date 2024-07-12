@@ -69,9 +69,13 @@ function Index() {
             }}
           />
         </div>
-        <Button variant="contained" onClick={() => setOpen(true)}>
-          Add Products
-        </Button>
+        <div className=" flex flex-col gap-3">
+        <div className="flex justify-end mr-4 mt-5">
+          <Button variant="contained" onClick={() => setOpen(true)}>
+            Add a product
+          </Button>
+        </div>
+      </div>
       </div>
       <ProductTable data={data} />
       <Pagination count={count} page={params.page} onChange={handleChange} />
