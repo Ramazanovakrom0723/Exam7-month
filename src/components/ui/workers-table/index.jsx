@@ -15,17 +15,17 @@ import { useState } from "react";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
-    backgroundColor: '#FFFFFF', // Oq background
-    color: '#000000', // Qora text
-    marginLeft: '30px', // Chap tarafdagi 30px padding
-    marginRight: '30px', // O'ng tarafdagi 30px padding
+    backgroundColor: '#FFFFFF', 
+    color: '#000000', 
+    marginLeft: '30px',
+    marginRight: '30px', 
   },
   [`&.${tableCellClasses.body}`]: {
     fontSize: 14,
-    backgroundColor: '#FFFFFF', // Oq background
-    color: '#000000', // Qora text
-    paddingLeft: '30px', // Chap tarafdagi 30px padding
-    paddingRight: '30px', // O'ng tarafdagi 30px padding
+    backgroundColor: '#FFFFFF',
+    color: '#000000', 
+    paddingLeft: '30px', 
+    paddingRight: '30px', 
   },
 }));
 
